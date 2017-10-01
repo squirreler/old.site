@@ -1,0 +1,171 @@
+body {
+  background-image: url(http://www.redmoonrising.com/images/stars.jpg);
+  color: white;
+  font-family: 'Syncopate', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 90px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+}
+
+.nav-bar  {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 30px;
+  color: white;
+  list-style: none;
+}
+.nav-a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.nav-a:hover  {
+  color: white;
+}
+
+.nav-li {
+  margin-left: 20px;
+}
+.center {
+  text-align: center;
+}
+
+.image-style {
+  width: 400px;
+}
+
+.image-style2 {
+  width: 400px;
+  vertical-align: top;
+}
+
+.image-style3 {
+  width: 900px;
+  vertical-align: top;
+}
+
+.backround-color {
+  background-color: #1abc9c;
+}
+
+/* bobs */
+
+.bob1 {
+  color: white;
+}
+
+.bob2 {
+  color: DeepPink;
+}
+
+.bob3 {
+  color: blue;
+}
+
+.bob4 {
+  color: PaleGreen;
+}
+
+.bob5 {
+  color: Magenta;
+}
+
+.bob6 {
+  color: DodgerBlue;
+}
+
+.bob7 {
+  color: BlueViolet;
+}
+
+.bob8 {
+  color: Navy;
+}
+
+.bob9 {
+  color: MediumOrchid;
+}
+
+.bob10 {
+  color: MediumPurple;
+}
+
+.rainbow {
+  /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 1s infinite;
+  /* Internet Explorer */
+  -ms-animation: rainbow 1s infinite;
+  /* Standar Syntax */
+  animation: rainbow 1s infinite;
+}
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes rainbow {
+  20% {
+    color: red;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: orange;
+  }
+}
+
+/* Internet Explorer */
+
+@-ms-keyframes rainbow {
+  20% {
+    color: red;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: orange;
+  }
+}
+
+/* Standar Syntax */
+
+@keyframes rainbow {
+  20% {
+    color: red;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: orange;
+  }
+}
